@@ -3,7 +3,7 @@
 <head>    
 	<meta charset = 'UTF-8' /> 
 	<meta name = 'viewport' content = 'width=device-width' initial-scale='1.0'/>
-	<title>Profil Administateur</title>
+	<title>Accueil</title>
 	<!-->link rel="stylesheet" href="style_admin.css"</-->
 </head>
 <body>
@@ -13,8 +13,7 @@
 	</div>
 
 	<div class = 'contenant'>
-	<h1>Bienvenue sur le site des clubs d'athlétisme de Belfort, Montbéliard et Sevenans </h1>
-	<div id = 'citation'> Citius, Altius, Fortius</div>
-	<img src="stade.jpeg" alt="Un stade d'athlétisme">
+	<h1>Mon Jardin Hydroponique</h1>
+    <img src="icone_hydroponique.jpg" alt="Un plant hydroponique">
 	</div> 
 </body>
