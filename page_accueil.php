@@ -8,8 +8,8 @@
 </head>
 <body>
     <div id = 'contenant_1'>
-	<div id = 'conn'><a href = connexion.php>Se connecter </a></div>
-	<div id = 'insc'><a href = inscription.php>S'inscrire</a></div>
+	<div id = 'conn'><a href = page_connexion.php>Se connecter </a></div>
+	<div id = 'insc'><a href = page_inscription.php>S'inscrire</a></div>
 	</div>
 
 	<div class = 'contenant'>
