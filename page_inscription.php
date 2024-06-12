@@ -3,25 +3,30 @@
 	<head>    
 		<meta charset = 'UTF-8' /> 
 		<meta name = 'viewport' content = 'width=device-width; initial-scale=1.0'/>
-		<link rel = 'stylesheet' href = 'graphisme.css'/>
+		<link rel = 'stylesheet' href = 'testcode.css'/>
 		<title>Inscription</title>
 	</head>
 	<body>
-
+    <header class="sticky-header">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="page_accueil.php">Accueil</a></li>
+                <li><a href="page_connexion.php">Se connecter</a></li>
+                <li><a href="page_inscription.php">S'inscrire</a></li>
+            </ul>
+        </nav>
+    </header>
 	<?php
 	$bdd = new PDO('mysql:host=localhost;dbname=dhydroponique;','root','');
 	error_reporting(E_ALL);
 	ini_set('display_errors', 1);
 	?>
-
-	<div id ='contenant_1'>
-		<div id = 'conn'><a href = "page_accueil.php">Page d'accueil</a></div>
-	</div>
-
 		<div class ='contenant'>
-		<h1>S'inscrire</h1>
+		<div id="titre_inscrire"><h1>S'inscrire</h1></div>
 		<p>Vous avez déjà un compte ? <a href ='page_connexion.php' title="Cliquez ici pour vous connectez">Se connecter</a></p>
-			<form method = 'post' action = 'page_inscription.php'>
+		<div class = "formulaire">
+		<form method = 'post' action = 'page_inscription.php'>
+				
 				<div class = 'champ_entree'>
 					<label for = 'Nom'>Nom : </label> <input id='nom' name='nom' type='text' size = '30' placeholder='Le Nôtre' required='required' /> 
 				</div> 
@@ -38,7 +43,8 @@
 					<label for = 'Mot de passe'>Mot de passe : </label><input id='mdp' name='mot_de_passe' type='password' size = '30'required='required'/>  
 				</div>
 				<div class='bouton'><input type='submit' name ='Inscription' value='S&#39;inscrire' /></div>
-			</form>
+			</div>
+			</form>	
 
 		<?php
 			if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['date_naissance']) && isset($_POST['email']) && isset($_POST['mot_de_passe'])) {

@@ -21,7 +21,8 @@
             <!-- Contenu du contenant 1 -->
         </div>
         <div class="contenant">
-            <h1>Mon Jardin Hydroponique</h1>
+			<div id="titre_jardin">
+            <h1>Mon Jardin Hydroponique</h1></div>
             <img src="icone_hydroponique.jpg" alt="Un plant hydroponique">
         </div>
     </div>

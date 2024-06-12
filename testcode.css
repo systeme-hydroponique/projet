@@ -1,9 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Dosis', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+.contenant {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
+        width: 300px; /* Largeur du conteneur */
+    height: 200px; /* Hauteur du conteneur */
+}
+
+.contenant img {
+    position: absolute;
+    top: 25%; /* Ajustez la position verticale selon vos besoins */
+    left: 50%; /* Ajustez la position horizontale selon vos besoins */
+    transform: translateX(-50%);
+    width: 100px; /* Définir la largeur de l'image à 100 pixels */
+    height: auto; /* Garder le ratio de l'image */
+}
+
+.contenant p {
+    position: absolute;
+    top: 20%; /* Ajustez la position verticale selon vos besoins */
+    left: 50%; /* Ajustez la position horizontale selon vos besoins */
+    transform: translateX(-50%);
+    width: 300px; /* Définir la largeur de l'image à 100 pixels */
+    height: auto; /* Garder le ratio de l'image */
+}
+.formulaire {
+    position: absolute;
+    top: 30%; /* Ajustez la position verticale selon vos besoins */
+    left: 45%; /* Ajustez la position horizontale selon vos besoins */
+    transform: translateX(-50%);
+    width: 150px; /* Définir la largeur de l'image à 100 pixels */
+    height: auto; /* Garder le ratio de l'image */
+
+}
+#titre_jardin {
+    position: absolute;
+    
+    top: 10%; /* Ajustez la position verticale selon vos besoins */
+    left: 39%; /* Ajustez la position horizontale selon vos besoins */
+    
+
+}
+#titre_inscrire{
+    position: absolute;
+    
+    top: 10%; /* Ajustez la position verticale selon vos besoins */
+    left: 45%; /* Ajustez la position horizontale selon vos besoins */
+    
+
+}
+#titre_connexion{
+    position: absolute;
+    top : 10%;
+    left: 45%;
+}
+
+.bouton {
+        background-color: #4fdc53; /* Couleur de fond */
+        border: none; /* Supprime les bordures */
+        color: white; /* Couleur du texte */
+        padding: 10px 20px; /* Remplissage intérieur */
+        text-align: center; /* Centre le texte horizontalement */
+        text-decoration: none; /* Supprime la décoration du texte */
+        display: inline-block; /* Affiche le bouton en tant qu'élément en ligne */
+        font-size: 16px; /* Taille de la police */
+        border-radius: 20px; /* Coins arrondis */
+        cursor: pointer; /* Change le curseur au survol */
+        transition-duration: 0.4s; /* Durée de l'animation */
+        outline: none; /* Supprime le contour */
+    }
+
+.bouton:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
 .sticky-header {
     position: fixed;
     top: 0;

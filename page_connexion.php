@@ -3,20 +3,24 @@
 <head>    
 	<meta charset = 'UTF-8' /> 
 	<meta name = 'viewport' content = 'width=device-width; initial-scale=1.0'/>
-	<link rel = 'stylesheet' href = 'connexion.css'/>
+	<link rel = 'stylesheet' href = 'testcode.css'/>
 	<title>Connexion</title>
 </head>
 <body>
-
+<header class="sticky-header">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="page_accueil.php">Accueil</a></li>
+                <li><a href="page_connexion.php">Se connecter</a></li>
+                <li><a href="page_inscription.php">S'inscrire</a></li>
+            </ul>
+        </nav>
+    </header>
 <?php
     $bdd = new PDO('mysql:host=localhost;dbname=dhydroponique', 'root', '');
 ?>
-	<div id ='contenant_1'>
-		<div id = 'conn'><a href = "page_accueil.php">Page d'accueil</a></div>
-	</div>
-
 	<div class ='contenant'>
-		<h1>Se connecter</h1> 
+		<div id="titre_connexion" ><h1>Se connecter</h1></div> 
 		<p>Vous n'avez pas de compte ? <a href = "page_inscription.php">S'inscrire</a></p>
 		<div class = 'formulaire'>
 			<form method = 'post' action = 'page_connexion.php'>
@@ -26,7 +30,7 @@
 				<div class = 'champ_entree'>
 					<label for = 'Mot de passe'>Mot de passe : </label><input id='Mot de passe' name='mot_de_passe' size = '30' type='password' required='required'/> 
 				</div>
-				<div class = 'champ_entree'><input type='submit' name='envoyer' value='Se connecter'/></div>
+				<div class = 'bouton'><input type='submit' name='envoyer' value='Se connecter'/></div>
 			</form>
 
             <?php
