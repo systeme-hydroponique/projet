@@ -60,27 +60,25 @@ body {
 #titre_connexion{
     position: absolute;
     top : 10%;
-    left: 45%;
+    left: 43%;
 }
 
 .bouton {
-        background-color: #4fdc53; /* Couleur de fond */
-        border: none; /* Supprime les bordures */
-        color: white; /* Couleur du texte */
-        padding: 10px 20px; /* Remplissage intérieur */
-        text-align: center; /* Centre le texte horizontalement */
-        text-decoration: none; /* Supprime la décoration du texte */
-        display: inline-block; /* Affiche le bouton en tant qu'élément en ligne */
-        font-size: 16px; /* Taille de la police */
-        border-radius: 20px; /* Coins arrondis */
-        cursor: pointer; /* Change le curseur au survol */
-        transition-duration: 0.4s; /* Durée de l'animation */
-        outline: none; /* Supprime le contour */
-    }
-
-.bouton:hover {
-    background-color: #45a049; /* Couleur de fond au survol */
-}
+            background-color: #4fdc53; /* Couleur de fond */
+            color: white; /* Couleur du texte */
+            padding: 10px 20px; /* Remplissage intérieur */
+            text-align: center; /* Centre le texte horizontalement */
+            text-decoration: none; /* Supprime la décoration du texte */
+            display: inline-block; /* Affiche le bouton en tant qu'élément en ligne */
+            font-size: 16px; /* Taille de la police */
+            border-radius: 20px; /* Coins arrondis */
+            cursor: pointer; /* Change le curseur au survol */
+            transition-duration: 0.4s; /* Durée de l'animation */
+        }
+        
+        .bouton:hover {
+            background-color: #45a049; /* Couleur de fond au survol */
+        }
 .sticky-header {
     position: fixed;
     top: 0;
