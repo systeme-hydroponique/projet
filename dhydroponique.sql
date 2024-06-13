@@ -52,13 +52,6 @@ CREATE TABLE IF NOT EXISTS c_humidite_sol (
     date_recuperation DATETIME 
 );
 
-CREATE TABLE IF NOT EXISTS c_pH (
-    ID_plante INT(11),
-    FOREIGN KEY (ID_plante) REFERENCES plante(ID_plante),
-    pH INT(1),
-    date_recuperation DATETIME 
-);
-
 CREATE TABLE IF NOT EXISTS c_temperature (
     ID_plante INT(11),
     FOREIGN KEY (ID_plante) REFERENCES plante(ID_plante),
@@ -69,6 +62,13 @@ CREATE TABLE IF NOT EXISTS c_niveau_eau (
     ID_plante INT(11),
     FOREIGN KEY (ID_plante) REFERENCES plante(ID_plante),
     niveau INT(1),
+    date_recuperation DATETIME 
+);
+
+CREATE TABLE IF NOT EXISTS c_humidite_air (
+    ID_plante INT(11),
+    FOREIGN KEY (ID_plante) REFERENCES plante(ID_plante),
+    HR FLOAT(5),
     date_recuperation DATETIME 
 );
 
