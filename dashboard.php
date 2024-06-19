@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="testcode.css">
 </head>
 
+<body>
+<h1>Mes systèmes hydroponiques</h1>
 <?php
     session_start();
     // Voir les erreurs
@@ -27,28 +29,36 @@
         $ligne_n_p = array('prenom_hdpc' => 'Inconnu', 'nom_hdpc' => 'Utilisateur');
     }
 ?>
-    
-<body>
 
 <header class="sticky-header">
     <nav>
         <ul class="nav-list">
-            <li><p><?php echo $ligne_n_p['prenom_hdpc']." ". $ligne_n_p['nom_hdpc']; ?><p></li>
+            <li><p><?php echo $ligne_n_p['prenom_hdpc']." ". $ligne_n_p['nom_hdpc']; ?></p></li>
+            <li><a href="page_gestion.php">Tableau de bord</a></li>
             <li><a href="page_deconnexion.php">Se déconnecter</a></li>
         </ul>
     </nav>
 </header>
 
-<div id="titre_1">
-    <h1>Tableau de gestion</h1>
+<div class="contenant">
+    <?php
+        if (isset($id_hdpc)) {
+            $req_mes_systemes = $bdd->prepare("SELECT possession.nom_possession, plante.lien FROM possession INNER JOIN plante ON plante.ID_plante = possession.ID_plante WHERE possession.ID_hdpc = :id_hdpc");
+            $req_mes_systemes->bindParam(':id_hdpc', $id_hdpc);
+            $req_mes_systemes->execute();
+            $nb_lignes = $req_mes_systemes->rowCount();
+            while ($ligne = $req_mes_systemes->fetch()){
+                $nom_possession = $ligne['nom_possession'];
+                $lien_dashboard = $ligne['lien'];
+                echo '<a href="' . $lien_dashboard . '" class="bouton-lien">' . $nom_possession . '</a>';
+            }
+        } else {
+            echo "<p>Aucun système hydroponique trouvé.</p>";
+        }
+    ?>
 </div>
-
-<div>
-    <h2><a href="dashboard.php" class="bouton-lien">Mes systèmes hydroponiques</a></h2>
-</div>
-
-<h2><a href="ajouter_hydropo.php" class="bouton-lien">Ajouter un système hydroponique</a></h2>
-
 
 </body>
 </html>
+
+

@@ -1,91 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+/* Ajout de marges et paddings pour espacer les éléments */
 
 body {
     font-family: 'Dosis', sans-serif;
     margin: 0;
     padding: 0;
-}
-
-.contenant {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 300px; /* Ajustez la hauteur selon vos besoins */
-        width: 300px; /* Largeur du conteneur */
-    height: 200px; /* Hauteur du conteneur */
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px; /* Adding top padding to account for the fixed header */
 }
 
-.contenant img {
-    position: absolute;
-    top: 25%; /* Ajustez la position verticale selon vos besoins */
-    left: 50%; /* Ajustez la position horizontale selon vos besoins */
-    transform: translateX(-50%);
-    width: 100px; /* Définir la largeur de l'image à 100 pixels */
-    height: auto; /* Garder le ratio de l'image */
-}
-
-.contenant p {
-    position: absolute;
-    top: 20%; /* Ajustez la position verticale selon vos besoins */
-    left: 50%; /* Ajustez la position horizontale selon vos besoins */
-    transform: translateX(-50%);
-    width: 300px; /* Définir la largeur de l'image à 100 pixels */
-    height: auto; /* Garder le ratio de l'image */
-}
-.formulaire {
-    position: absolute;
-    top: 30%; /* Ajustez la position verticale selon vos besoins */
-    left: 45%; /* Ajustez la position horizontale selon vos besoins */
-    transform: translateX(-50%);
-    width: 150px; /* Définir la largeur de l'image à 100 pixels */
-    height: auto; /* Garder le ratio de l'image */
-
-}
-#titre_jardin {
-    position: absolute;
-    
-    top: 10%; /* Ajustez la position verticale selon vos besoins */
-    left: 39%; /* Ajustez la position horizontale selon vos besoins */
-    
-
-}
-#titre_inscrire{
-    position: absolute;
-    
-    top: 10%; /* Ajustez la position verticale selon vos besoins */
-    left: 45%; /* Ajustez la position horizontale selon vos besoins */
-    
-
-}
-#titre_connexion{
-    position: absolute;
-    top : 10%;
-    left: 43%;
-}
-
-.bouton {
-            background-color: #4fdc53; /* Couleur de fond */
-            color: white; /* Couleur du texte */
-            padding: 10px 20px; /* Remplissage intérieur */
-            text-align: center; /* Centre le texte horizontalement */
-            text-decoration: none; /* Supprime la décoration du texte */
-            display: inline-block; /* Affiche le bouton en tant qu'élément en ligne */
-            font-size: 16px; /* Taille de la police */
-            border-radius: 20px; /* Coins arrondis */
-            cursor: pointer; /* Change le curseur au survol */
-            transition-duration: 0.4s; /* Durée de l'animation */
-        }
-        
-        .bouton:hover {
-            background-color: #45a049; /* Couleur de fond au survol */
-        }
 .sticky-header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #4fdc53;
+    background-color: #55AA27;
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(18, 116, 7, 0.703);
+    box-shadow: 0 2px 4px #127407;
 }
 
 nav {
@@ -117,7 +48,10 @@ nav {
 .nav-list a:hover {
     background-color: #176d0a7a;
 }
-
+#sous_titre_1 {
+    margin-right: auto; /* Place le titre à l'extrémité gauche */
+    margin-left: 20px; /* Ajoute un espace à gauche */
+}
 .content {
     padding-top: 60px; /* Adding top padding to account for the fixed header */
 }
@@ -125,8 +59,81 @@ nav {
 section {
     padding: 60px 20px;
     border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section h1 {
+section h1, section h2 {
     margin-top: 0;
+}
+
+#sous_titre {
+    display: flex;
+    justify-content: space-between; /* Alignement des éléments à l'extrémité opposée */
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#sous_titre_1 {
+    margin-right: auto; /* Place le titre à l'extrémité droite */
+    margin-bottom: 0; /* Supprime le margin en bas */
+    margin-top: 0;
+}
+
+
+#titre_1 {
+    text-align: center; /* Centre le texte horizontalement */
+    line-height: 3rem; /* Ajuste la hauteur de ligne pour centrer verticalement */
+    display: flex;
+    align-items: center; /* Centre le contenu verticalement */
+    margin-top: 20px; /* Ajoute de l'espace en haut */
+    margin-bottom: 20px; /* Ajoute de l'espace en bas */
+}
+
+.bouton-container {
+    text-align: center;
+    margin-top: 20px; /* Ajouter de l'espace au-dessus du bouton */
+    margin-bottom: 20px; /* Ajouter de l'espace en dessous du bouton */
+}
+
+.bouton {
+    background-color: #55AA27; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Remplissage intérieur */
+    text-align: center; /* Centre le texte horizontalement */
+    text-decoration: none; /* Supprime la décoration du texte */
+    display: inline-block; /* Affiche le bouton en tant qu'élément en ligne */
+    font-size: 16px; /* Taille de la police */
+    border-radius: 20px; /* Coins arrondis */
+    cursor: pointer; /* Change le curseur au survol */
+    transition-duration: 0.4s; /* Durée de l'animation */
+}
+
+.bouton:hover {
+    background-color: #0d4f11; /* Couleur de fond au survol */
+}
+
+.champ_entree {
+    margin-bottom: 20px; /* Ajout d'espace en dessous de chaque champ d'entrée */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.bouton-lien {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #55AA27;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.bouton-lien:hover {
+    background-color: #0d4f11;
 }
