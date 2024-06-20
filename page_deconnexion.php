@@ -8,4 +8,4 @@ session_unset();
 session_destroy();
 
 // Rediriger l'utilisateur vers la page de depart
-header("Location: page_accueil.php");
+header("Location: index.php");

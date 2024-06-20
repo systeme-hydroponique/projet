@@ -10,7 +10,7 @@
     <header class="sticky-header">
         <nav>
             <ul class="nav-list">
-                <li><a href="page_accueil.php">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="page_connexion.php">Se connecter</a></li>
                 <li><a href="page_inscription.php">S'inscrire</a></li>
             </ul>
@@ -50,7 +50,7 @@
     </div>
 
     <?php
-    $bdd = new PDO('mysql:host=localhost;dbname=dhydroponique', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=dhydroponique', 'hydrop', 'Hydrop1234');
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
 

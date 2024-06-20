@@ -10,7 +10,7 @@
     <header class="sticky-header">
         <nav>
             <ul class="nav-list">
-                <li><a href="page_accueil.php">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="page_connexion.php">Se connecter</a></li>
                 <li><a href="page_inscription.php">S'inscrire</a></li>
             </ul>
@@ -45,7 +45,7 @@
 
         // Connexion à la base de données
         try {
-            $bdd = new PDO('mysql:host=localhost;dbname=dhydroponique', 'root', '');
+            $bdd = new PDO('mysql:host=localhost;dbname=dhydroponique', 'hydrop', 'Hydrop1234');
             $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (Exception $e) {
             die('Erreur : ' . $e->getMessage());

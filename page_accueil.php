@@ -10,7 +10,7 @@
     <header class="sticky-header">
         <nav>
             <ul class="nav-list">
-                <li><a href="page_accueil.php">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="page_connexion.php">Se connecter</a></li>
                 <li><a href="page_inscription.php">S'inscrire</a></li>
             </ul>

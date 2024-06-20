@@ -16,7 +16,7 @@
     ini_set('display_errors', 1);
 
     $id_hdpc = $_SESSION['id_hdpc'];
-    $bdd = new PDO("mysql:host=localhost;dbname=dhydroponique;charset=utf8", "root", "");
+    $bdd = new PDO("mysql:host=localhost;dbname=dhydroponique;charset=utf8", "hydrop", "Hydrop1234");
 
     // Vérifier si l'ID de session est défini pour éviter les erreurs
     if (isset($id_hdpc)) {
