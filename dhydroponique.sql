@@ -81,6 +81,6 @@ INSERT INTO hdpc(nom_hdpc, prenom_hdpc, date_naissance_hdpc, email, mdp) VALUES 
 
 INSERT INTO espece(nom_plante, type_plante, type_de_substrat) VALUES ('Lentilles', 'Légume', 'Terreau');
 
-INSERT INTO plante(ID_espece, date_semis, code, lien) VALUES (1, '2024-05-02', '24062024', 'http://127.0.0.1:1880/ui/#!/0?socketid=4LWsIzQMaFQt0F8AAAAB');
+INSERT INTO plante(ID_espece, date_semis, code, lien) VALUES (1, '2024-05-02', '24062024', 'http://127.0.0.1:1880/dashboard/page');
 
 INSERT INTO possession(ID_plante, ID_hdpc, nom_possession) VALUES (1, 1, 'Lentilles de Julie'),(1, 2, 'Lentilles de Manon'),(1, 3, 'Lentilles de Mathéo'), (1, 4, 'Lentilles de Gabin'), (1, 5, 'Lentilles de Noa');
