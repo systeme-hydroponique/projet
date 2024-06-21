@@ -1,0 +1,40 @@
+[
+    {
+        "id": "84528d99fd7d67a8",
+        "type": "ui-template",
+        "z": "b17f01bc21a8c6d2",
+        "group": "",
+        "page": "",
+        "ui": "1225d124a5149aad",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');\n\nbody {\n    font-family: 'Dosis', sans-serif;\n    margin: 0;\n    padding: 0;\n}\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 1020,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1225d124a5149aad",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "navigationStyle": "default",
+        "titleBarStyle": "default"
+    }
+]
