@@ -87,12 +87,14 @@ section h1, section h2 {
 #titre_1 {
     text-align: center; /* Centre le texte horizontalement */
     line-height: 3rem; /* Ajuste la hauteur de ligne pour centrer verticalement */
-    display: flex;
     align-items: center; /* Centre le contenu verticalement */
     margin-top: 20px; /* Ajoute de l'espace en haut */
     margin-bottom: 20px; /* Ajoute de l'espace en bas */
 }
 
+#titre_jardin{
+    text-align: auto;
+}
 .bouton-container {
     text-align: center;
     margin-top: 20px; /* Ajouter de l'espace au-dessus du bouton */
@@ -136,4 +138,40 @@ label {
 
 .bouton-lien:hover {
     background-color: #0d4f11;
+}
+
+/* Conteneur de l'image pour un meilleur contrôle */
+.image-container {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Image responsive */
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Styles pour grands écrans */
+@media (min-width: 1024px) {
+    .image-container {
+        width: 70%; 
+    }
+}
+
+/* Styles pour moyens écrans */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .image-container {
+        width: 70%; 
+    }
+}
+
+/* Styles pour petits écrans */
+@media (max-width: 767px) {
+    .image-container {
+        width: 50%;
+    }
 }
