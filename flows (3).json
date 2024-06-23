@@ -1,0 +1,1743 @@
+[
+    {
+        "id": "b17f01bc21a8c6d2",
+        "type": "tab",
+        "label": "essai 06/06",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "600bae3f9d4de6c6",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt.ci-ciad.utbm.fr",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "afb12117465a04aa",
+        "type": "Stackhero-MySQL-Server",
+        "name": "",
+        "host": "localhost",
+        "port": "3306",
+        "tls": false,
+        "database": "button"
+    },
+    {
+        "id": "0d54eb19109ef2c6",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt.eclipseprojects.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6886ed60ae931d61",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8fda807ee449d1e3",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "172.20.10.2",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "1225d124a5149aad",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "navigationStyle": "default",
+        "titleBarStyle": "default"
+    },
+    {
+        "id": "38046e7ef51208b8",
+        "type": "ui-group",
+        "name": "données environnement plantes",
+        "page": "bc65246b12d0d598",
+        "width": "8",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "first_body",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "61d943cde7a1a267",
+        "type": "ui-theme",
+        "name": "thème vert",
+        "colors": {
+            "surface": "#55aa27",
+            "primary": "#55aa27",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "30px",
+            "groupGap": "20px",
+            "groupBorderRadius": "15px",
+            "widgetGap": "15px"
+        }
+    },
+    {
+        "id": "bc65246b12d0d598",
+        "type": "ui-page",
+        "name": "Tableau de bord",
+        "ui": "1225d124a5149aad",
+        "path": "/page",
+        "icon": "",
+        "layout": "grid",
+        "theme": "61d943cde7a1a267",
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "5e6af39f4aac1c46",
+        "type": "ui-group",
+        "name": "données pompe",
+        "page": "bc65246b12d0d598",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "40703aeb54b69e1f",
+        "type": "MySQLdatabase",
+        "name": "base de données",
+        "host": "localhost",
+        "port": "3306",
+        "db": "dhydroponique",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "15035a592af7dc78",
+        "type": "ui-group",
+        "name": "commandes",
+        "page": "bc65246b12d0d598",
+        "width": "6",
+        "height": "1",
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "947476282110a24a",
+        "type": "ui-page",
+        "name": "Évolution",
+        "ui": "1225d124a5149aad",
+        "path": "/pagev",
+        "icon": "chart-line",
+        "layout": "grid",
+        "theme": "61d943cde7a1a267",
+        "order": 3,
+        "className": "",
+        "visible": true,
+        "disabled": "false"
+    },
+    {
+        "id": "ec2bf301a7c61b0c",
+        "type": "ui-group",
+        "name": "Évolution du niveau de l'eau ",
+        "page": "947476282110a24a",
+        "width": "6",
+        "height": "1",
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "988b9c9b5ae8fcbe",
+        "type": "ui-group",
+        "name": "Évolution de l'humidité de l'air",
+        "page": "947476282110a24a",
+        "width": "6",
+        "height": "1",
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "442ce3c2b8d6d278",
+        "type": "ui-link",
+        "name": "Retour page d'accueil",
+        "ui": "1225d124a5149aad",
+        "path": "https://foui.ch/page_gestion.php",
+        "icon": "keyboard-return",
+        "order": 1,
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "61ccc5cf6fa82b06",
+        "type": "ui-link",
+        "name": "Se déconnecter",
+        "ui": "1225d124a5149aad",
+        "path": "https://foui.ch/index.php",
+        "icon": "logout",
+        "order": 4,
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "0953c54051097ec6",
+        "type": "ui-group",
+        "name": "Évolution de l'humidité du sol",
+        "page": "947476282110a24a",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "92a2d09d0ab5f6aa",
+        "type": "ui-group",
+        "name": "Évolution de l'ensoleillement",
+        "page": "947476282110a24a",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "bc5f50fba95f31cc",
+        "type": "ui-group",
+        "name": "Évolution de la température",
+        "page": "947476282110a24a",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "5913a7b411c0c6a9",
+        "type": "node-red-contrib-whatsapp-cmb-account",
+        "name": "Julie"
+    },
+    {
+        "id": "a298bf955a0a5f30",
+        "type": "ui-group",
+        "name": "informations sur la plante",
+        "page": "bc65246b12d0d598",
+        "width": "4",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "c314c507407f3fcc",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "d1df83453a60e861",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "c314c507407f3fcc",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e46c3e9e321f6bd6",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "cdda03ab24277513",
+        "type": "mqtt in",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "esp32/luxmetre",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "600bae3f9d4de6c6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "ba1cc950193a0a66",
+                "93f696ebd6e9f8b1",
+                "19eef065513d8c1d",
+                "9dcb3a9d37fd4b9b"
+            ]
+        ]
+    },
+    {
+        "id": "5eaf3e02d229d1c2",
+        "type": "mqtt in",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "esp32/humiditesol",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "600bae3f9d4de6c6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 480,
+        "wires": [
+            [
+                "9533da1e851780fd",
+                "1e5be2fba3ace67a",
+                "446f0e63c9d21780",
+                "7c9fa174c36d88d9"
+            ]
+        ]
+    },
+    {
+        "id": "da2d572515a53425",
+        "type": "mqtt in",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "esp32/temperature",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "600bae3f9d4de6c6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 780,
+        "wires": [
+            [
+                "07544ef6c7338a6b",
+                "a11211c62ea28bb8",
+                "b324a71a982d3929",
+                "ed957245ec0c247c"
+            ]
+        ]
+    },
+    {
+        "id": "b16c97510ff5e60c",
+        "type": "mqtt in",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "esp32/neau",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "600bae3f9d4de6c6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 1340,
+        "wires": [
+            [
+                "6574a71f87c1aaba"
+            ]
+        ]
+    },
+    {
+        "id": "03183cedee3e86ba",
+        "type": "function",
+        "z": "b17f01bc21a8c6d2",
+        "name": "fonction ensoleillement",
+        "func": "const value = msg.payload\n\nmsg = {\n    ui_control:{\n        gtype :\"gauge\",\n        min : 1000,\n        max : 40000,\n        colors : [\"#CA3838\",\"#E6E600\",\"#00B500\",\"#E6E600\",\"#CA3838\"],\n        seg1:5000,\n        seg2:10000,\n        seg3:20000,\n        seg4:30000\n    },\n    payload: value\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "93f696ebd6e9f8b1",
+        "type": "ui-gauge",
+        "z": "b17f01bc21a8c6d2",
+        "name": "ensoleillement",
+        "group": "38046e7ef51208b8",
+        "order": 3,
+        "width": "4",
+        "height": "4",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "ensoleillement",
+        "units": "lux",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ea5353"
+            },
+            {
+                "from": "5000",
+                "color": "#ffc800"
+            },
+            {
+                "from": "10000",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "20000",
+                "color": "#ffc800"
+            },
+            {
+                "from": "30000",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "40000",
+        "sizeThickness": "16",
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 820,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "1e5be2fba3ace67a",
+        "type": "ui-gauge",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "group": "38046e7ef51208b8",
+        "order": 4,
+        "width": "4",
+        "height": "4",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "humidité du sol",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ca3838"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800"
+            },
+            {
+                "from": "60",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "70",
+                "color": "#ffc800"
+            },
+            {
+                "from": "75",
+                "color": "#ca3838"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 700,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "a11211c62ea28bb8",
+        "type": "ui-gauge",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "group": "38046e7ef51208b8",
+        "order": 2,
+        "width": "4",
+        "height": "4",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "température",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ea5353"
+            },
+            {
+                "from": "5",
+                "color": "#ffc800"
+            },
+            {
+                "from": "15",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "25",
+                "color": "#ffc800"
+            },
+            {
+                "from": "30",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "40",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 770,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "cdbd8501fa191d54",
+        "type": "inject",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "50",
+        "payloadType": "num",
+        "x": 310,
+        "y": 1480,
+        "wires": [
+            [
+                "dbed5930b2d4eab6",
+                "25be608463ee3598"
+            ]
+        ]
+    },
+    {
+        "id": "f02ca1242d1fa941",
+        "type": "mysql",
+        "z": "b17f01bc21a8c6d2",
+        "mydb": "40703aeb54b69e1f",
+        "name": "",
+        "x": 970,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "135007dafa1c91c7",
+        "type": "mysql",
+        "z": "b17f01bc21a8c6d2",
+        "mydb": "40703aeb54b69e1f",
+        "name": "",
+        "x": 1010,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "847ac341dc3cfb27",
+        "type": "mysql",
+        "z": "b17f01bc21a8c6d2",
+        "mydb": "40703aeb54b69e1f",
+        "name": "",
+        "x": 970,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ba1cc950193a0a66",
+        "type": "function",
+        "z": "b17f01bc21a8c6d2",
+        "name": "insérer ensoleillement",
+        "func": "msg.topic = \"INSERT INTO c_ensoleillement VALUES (1,\"+ msg.payload+\",NOW());\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 160,
+        "wires": [
+            [
+                "f02ca1242d1fa941"
+            ]
+        ]
+    },
+    {
+        "id": "9533da1e851780fd",
+        "type": "function",
+        "z": "b17f01bc21a8c6d2",
+        "name": "insérer humidité sol",
+        "func": "msg.topic = \"INSERT INTO c_humidite_sol VALUES (1,\"+ msg.payload+\",NOW());\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 460,
+        "wires": [
+            [
+                "847ac341dc3cfb27"
+            ]
+        ]
+    },
+    {
+        "id": "dbed5930b2d4eab6",
+        "type": "function",
+        "z": "b17f01bc21a8c6d2",
+        "name": "insérer niveau d'eau",
+        "func": "msg.topic = \"INSERT INTO c_niveau_eau VALUES (1,\"+ msg.payload+\",NOW());\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1380,
+        "wires": [
+            [
+                "debe8635fe6dea31"
+            ]
+        ]
+    },
+    {
+        "id": "debe8635fe6dea31",
+        "type": "mysql",
+        "z": "b17f01bc21a8c6d2",
+        "mydb": "40703aeb54b69e1f",
+        "name": "",
+        "x": 970,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "07544ef6c7338a6b",
+        "type": "function",
+        "z": "b17f01bc21a8c6d2",
+        "name": "insérer température",
+        "func": "msg.topic = \"INSERT INTO c_temperature VALUES (1,\"+ msg.payload+\",NOW());\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 760,
+        "wires": [
+            [
+                "135007dafa1c91c7"
+            ]
+        ]
+    },
+    {
+        "id": "25be608463ee3598",
+        "type": "ui-chart",
+        "z": "b17f01bc21a8c6d2",
+        "group": "ec2bf301a7c61b0c",
+        "name": "évolution niveau eau",
+        "label": "chart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "time",
+        "yAxisLabel": "",
+        "yAxisProperty": "",
+        "ymin": "",
+        "ymax": "",
+        "action": "append",
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "604800",
+        "removeOlderPoints": "",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "x": 720,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37cf521d18fe0edd",
+        "type": "ui-gauge",
+        "z": "b17f01bc21a8c6d2",
+        "name": "humidité de l'air",
+        "group": "38046e7ef51208b8",
+        "order": 1,
+        "width": "4",
+        "height": "4",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "humidité de l'air",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 680,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "70e9372e9fdbb37a",
+        "type": "mysql",
+        "z": "b17f01bc21a8c6d2",
+        "mydb": "40703aeb54b69e1f",
+        "name": "",
+        "x": 930,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8dc85e373007ea13",
+        "type": "function",
+        "z": "b17f01bc21a8c6d2",
+        "name": "insérer humidité de l'air",
+        "func": "msg.topic = \"INSERT INTO c_temperature VALUES (1,\" + msg.payload + \",NOW());\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1040,
+        "wires": [
+            [
+                "70e9372e9fdbb37a"
+            ]
+        ]
+    },
+    {
+        "id": "c4c95c991d887d55",
+        "type": "mqtt in",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "esp32/humiditeair",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "600bae3f9d4de6c6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 1060,
+        "wires": [
+            [
+                "8dc85e373007ea13",
+                "37cf521d18fe0edd",
+                "85f0b5fb182a196c",
+                "614c17543c30968c"
+            ]
+        ]
+    },
+    {
+        "id": "b17c56e6ac2a36fe",
+        "type": "ui-switch",
+        "z": "b17f01bc21a8c6d2",
+        "name": "esp",
+        "label": "LEDS",
+        "group": "15035a592af7dc78",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "onvalue": "allumer_leds",
+        "onvalueType": "str",
+        "onicon": "lightbulb-on-outline",
+        "oncolor": "#F5C542",
+        "offvalue": "éteindre_leds",
+        "offvalueType": "str",
+        "officon": "lightbulb-outline",
+        "offcolor": "#000000",
+        "x": 290,
+        "y": 1800,
+        "wires": [
+            [
+                "46c3fb6bafba9cca"
+            ]
+        ]
+    },
+    {
+        "id": "85f0b5fb182a196c",
+        "type": "ui-chart",
+        "z": "b17f01bc21a8c6d2",
+        "group": "988b9c9b5ae8fcbe",
+        "name": "",
+        "label": "évolution humidité de l'air",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "time",
+        "yAxisLabel": "",
+        "yAxisProperty": "",
+        "ymin": "",
+        "ymax": "",
+        "action": "append",
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "x": 690,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b324a71a982d3929",
+        "type": "ui-chart",
+        "z": "b17f01bc21a8c6d2",
+        "group": "bc5f50fba95f31cc",
+        "name": "évolution température",
+        "label": "chart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "time",
+        "yAxisLabel": "",
+        "yAxisProperty": "",
+        "ymin": "",
+        "ymax": "",
+        "action": "append",
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "x": 820,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "446f0e63c9d21780",
+        "type": "ui-chart",
+        "z": "b17f01bc21a8c6d2",
+        "group": "0953c54051097ec6",
+        "name": "évolution humidité sol",
+        "label": "chart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "time",
+        "yAxisLabel": "",
+        "yAxisProperty": "",
+        "ymin": "",
+        "ymax": "",
+        "action": "append",
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "x": 720,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "19eef065513d8c1d",
+        "type": "ui-chart",
+        "z": "b17f01bc21a8c6d2",
+        "group": "92a2d09d0ab5f6aa",
+        "name": "évolution ensoleillement",
+        "label": "chart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "time",
+        "yAxisLabel": "",
+        "yAxisProperty": "",
+        "ymin": "",
+        "ymax": "",
+        "action": "append",
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "x": 810,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46c3fb6bafba9cca",
+        "type": "mqtt out",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "esp32/LED",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "600bae3f9d4de6c6",
+        "x": 690,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "3b83ddd79226fc2f",
+        "type": "template",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "This is the payload: {{payload}} !",
+        "output": "str",
+        "x": 1100,
+        "y": 2060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84528d99fd7d67a8",
+        "type": "ui-template",
+        "z": "b17f01bc21a8c6d2",
+        "group": "",
+        "page": "",
+        "ui": "1225d124a5149aad",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');\n\nbody {\n    font-family: 'Dosis', sans-serif;\n    margin: 0;\n    padding: 0;\n}\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 1020,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "caea062a665c916c",
+        "type": "ui-slider",
+        "z": "b17f01bc21a8c6d2",
+        "group": "15035a592af7dc78",
+        "name": "intensité lumineuse",
+        "label": "intensité lumineuse",
+        "tooltip": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": true,
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 310,
+        "y": 1880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca64c8683a28b1ec",
+        "type": "ui-switch",
+        "z": "b17f01bc21a8c6d2",
+        "name": "écran OLED",
+        "label": "écran OLED",
+        "group": "15035a592af7dc78",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "onvalue": "allumer_ecran",
+        "onvalueType": "str",
+        "onicon": "television",
+        "oncolor": "#2B27B1",
+        "offvalue": "éteindre_ecran",
+        "offvalueType": "str",
+        "officon": "television-off",
+        "offcolor": "",
+        "x": 290,
+        "y": 1980,
+        "wires": [
+            [
+                "c81a3e56f28f74b4"
+            ]
+        ]
+    },
+    {
+        "id": "3c549bfb346a4096",
+        "type": "ui-dropdown",
+        "z": "b17f01bc21a8c6d2",
+        "group": "15035a592af7dc78",
+        "name": "quoi afficher sur l'écran",
+        "label": "Quoi afficher ?",
+        "tooltip": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Humidité du sol",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Humidité de l'air",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Ensoleillement",
+                "value": "3",
+                "type": "str"
+            },
+            {
+                "label": "Température",
+                "value": "4",
+                "type": "str"
+            },
+            {
+                "label": "Niveau d'eau la pompe",
+                "value": "5",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 330,
+        "y": 2060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c81a3e56f28f74b4",
+        "type": "mqtt out",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "esp32/ECRAN",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "600bae3f9d4de6c6",
+        "x": 720,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "5fbfeae4bc3ec569",
+        "type": "node-red-contrib-whatsapp-cmb-send-message",
+        "z": "b17f01bc21a8c6d2",
+        "name": "envoyer à Julie",
+        "credtype": "account",
+        "account": "5913a7b411c0c6a9",
+        "text": "text",
+        "phonenumbervalue": "",
+        "apikeyvalue": "",
+        "apikeyinputtypemessage": "msg",
+        "phonenumberinputtypemessage": "msg",
+        "inputtypemessage": "msg",
+        "rejectssl": false,
+        "x": 600,
+        "y": 2160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e31c3dd6c5b87193",
+        "type": "inject",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "text",
+                "v": "ça fonctionne !",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 330,
+        "y": 2160,
+        "wires": [
+            [
+                "5fbfeae4bc3ec569"
+            ]
+        ]
+    },
+    {
+        "id": "a7b108e744caa4de",
+        "type": "ui-notification",
+        "z": "b17f01bc21a8c6d2",
+        "ui": "1225d124a5149aad",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "raw": false,
+        "className": "",
+        "name": "",
+        "x": 210,
+        "y": 1600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ca7bed20523d8ed",
+        "type": "ui-markdown",
+        "z": "b17f01bc21a8c6d2",
+        "group": "a298bf955a0a5f30",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "# Markdown Content\nbkavkakainz\nGoes here...",
+        "className": "",
+        "x": 210,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1a82f0a37c0ef568",
+        "type": "inject",
+        "z": "b17f01bc21a8c6d2",
+        "name": "tqt",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 210,
+        "y": 2400,
+        "wires": [
+            [
+                "98ce1b1c82ebe7b2"
+            ]
+        ]
+    },
+    {
+        "id": "98ce1b1c82ebe7b2",
+        "type": "ui_gauge",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "group": "d1df83453a60e861",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 490,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "2b5e11590551159a",
+        "type": "debug",
+        "z": "b17f01bc21a8c6d2",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 850,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "9dcb3a9d37fd4b9b",
+        "type": "mqtt out",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "dluxmetre",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "600bae3f9d4de6c6",
+        "x": 460,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "7c9fa174c36d88d9",
+        "type": "mqtt out",
+        "z": "b17f01bc21a8c6d2",
+        "name": "dhumiditesol",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "600bae3f9d4de6c6",
+        "x": 430,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ed957245ec0c247c",
+        "type": "mqtt out",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "dtemperature",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "600bae3f9d4de6c6",
+        "x": 420,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "614c17543c30968c",
+        "type": "mqtt out",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "dhumiditeair",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "600bae3f9d4de6c6",
+        "x": 430,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "6574a71f87c1aaba",
+        "type": "mqtt out",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "topic": "dniveaueau",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "600bae3f9d4de6c6",
+        "x": 430,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "7a26aa2098d6683c",
+        "type": "ui-template",
+        "z": "b17f01bc21a8c6d2",
+        "group": "5e6af39f4aac1c46",
+        "page": "",
+        "ui": "",
+        "name": "eau",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <div id=\"gaugeContainer\">\n        <svg id=\"liquidFillGauge\" width=\"200\" height=\"200\"></svg>\n    </div>\n</template>\n\n<script>\n    let script = document.createElement('script');\n    script.src = \"https://d3js.org/d3.v5.min.js\";\n    script.onload = function () {\n        initializeGauge();\n    };\n    document.head.appendChild(script);\n    // Define the liquid fill gauge\n    function liquidFillGaugeDefaultSettings() {\n        return {\n            minValue: 0,\n            maxValue: 100,\n            circleThickness: 0.05,\n            circleFillGap: 0.05,\n            circleColor: \"#178BCA\",\n            waveHeight: 0.05,\n            waveCount: 1,\n            waveRiseTime: 1000,\n            waveAnimateTime: 18000,\n            waveRise: true,\n            waveHeightScaling: true,\n            waveAnimate: true,\n            waveColor: \"#178BCA\",\n            waveOffset: 0,\n            textVertPosition: 0.5,\n            textSize: 1,\n            valueCountUp: true,\n            displayPercent: true,\n            textColor: \"#045681\",\n            waveTextColor: \"#A4DBf8\"\n        };\n    }\n\n    function loadLiquidFillGauge(elementId, value, config) {\n        if (config == null) config = liquidFillGaugeDefaultSettings();\n\n        const gauge = d3.select(\"#\" + elementId);\n        const radius = Math.min(parseInt(gauge.style(\"width\")), parseInt(gauge.style(\"height\"))) / 2;\n        const locationX = parseInt(gauge.style(\"width\")) / 2 - radius;\n        const locationY = parseInt(gauge.style(\"height\")) / 2 - radius;\n        const fillPercent = Math.max(config.minValue, Math.min(config.maxValue, value)) / config.maxValue;\n\n        const waveHeightScale = config.waveHeightScaling\n            ? d3.scaleLinear().range([0, config.waveHeight, 0]).domain([0, 50, 100])\n            : d3.scaleLinear().range([config.waveHeight, config.waveHeight]).domain([0, 100]);\n\n        const textPixels = (config.textSize * radius / 2);\n        const textFinalValue = parseFloat(value).toFixed(2);\n        const textStartValue = config.valueCountUp ? config.minValue : textFinalValue;\n        const percentText = config.displayPercent ? \"%\" : \"\";\n        const circleThickness = config.circleThickness * radius;\n        const circleFillGap = config.circleFillGap * radius;\n        const fillCircleMargin = circleThickness + circleFillGap;\n        const fillCircleRadius = radius - fillCircleMargin;\n        const waveHeight = fillCircleRadius * waveHeightScale(fillPercent * 100);\n\n        const waveLength = fillCircleRadius * 2 / config.waveCount;\n        const waveClipCount = 1 + config.waveCount;\n        const waveClipWidth = waveLength * waveClipCount;\n\n        // RENDER GAUGE\n        const textRounder = (value) => Math.round(value);\n        const data = d3.range(40).map(() => 0);\n        const gaugeGroup = gauge.append(\"g\").attr('transform', 'translate(' + locationX + ',' + locationY + ')');\n\n        const clipArea = d3.area()\n            .x((d, i) => i * waveLength / (40 - 1))\n            .y0((d) => waveHeight * (1 + Math.sin(d * 2 * Math.PI)))\n            .y1(() => fillCircleRadius * 2 + waveHeight);\n\n        const waveGroup = gaugeGroup.append(\"defs\")\n            .append(\"clipPath\")\n            .attr(\"id\", \"clipWave\" + elementId);\n        const wave = waveGroup.append(\"path\")\n            .datum(data)\n            .attr(\"d\", clipArea)\n            .attr(\"T\", 0);\n\n        const fillCircleGroup = gaugeGroup.append(\"g\")\n            .attr(\"clip-path\", \"url(#clipWave\" + elementId + \")\");\n        fillCircleGroup.append(\"circle\")\n            .attr(\"cx\", radius)\n            .attr(\"cy\", radius)\n            .attr(\"r\", fillCircleRadius)\n            .style(\"fill\", config.waveColor);\n\n        gaugeGroup.append(\"circle\")\n            .attr(\"cx\", radius)\n            .attr(\"cy\", radius)\n            .attr(\"r\", radius)\n            .style(\"fill\", \"none\")\n            .style(\"stroke-width\", circleThickness + \"px\")\n            .style(\"stroke\", config.circleColor);\n\n        const text1 = gaugeGroup.append(\"text\")\n            .text(textRounder(textStartValue) + percentText)\n            .attr(\"class\", \"liquidFillGaugeText\")\n            .attr(\"text-anchor\", \"middle\")\n            .attr(\"font-size\", textPixels + \"px\")\n            .attr(\"fill\", config.textColor)\n            .attr('transform', 'translate(' + radius + ',' + (radius - textPixels / 2) + ')');\n\n        if (config.waveAnimate) {\n            wave.attr('transform', 'translate(' + waveClipWidth + ',0)');\n            wave.transition()\n                .duration(config.waveAnimateTime)\n                .ease(d3.easeLinear)\n                .attr('transform', 'translate(' + -waveClipWidth + ',0)')\n                .on('end', () => {\n                    wave.attr('transform', 'translate(' + waveClipWidth + ',0)');\n                    wave.transition()\n                        .duration(config.waveAnimateTime)\n                        .ease(d3.easeLinear)\n                        .attr('transform', 'translate(' + -waveClipWidth + ',0)')\n                        .on('end', () => wave.attr('transform', 'translate(' + waveClipWidth + ',0)'));\n                });\n        }\n\n        const newValue = fillPercent * 2 * Math.PI;\n\n        wave.transition()\n            .duration(config.waveRiseTime)\n            .attr('transform', 'translate(0,' + newValue + ')');\n    }\n\n    // Component\n    export default {\n        data() {\n            return {\n                gaugeConfig: null\n            };\n        },\n        methods: {\n            updateGauge(value) {\n                loadLiquidFillGauge(\"liquidFillGauge\", value, this.gaugeConfig);\n            }\n        },\n        mounted() {\n            this.gaugeConfig = liquidFillGaugeDefaultSettings();\n            this.updateGauge(0); // Initialize with 0 value\n\n            // Listen for incoming messages from Node-RED\n            this.$socket.on('msg-input:' + this.id, (msg) => {\n                if (msg.payload && !isNaN(msg.payload)) {\n                    this.updateGauge(msg.payload);\n                }\n            });\n        }\n    };\n</script>\n\n<style>\n    #gaugeContainer {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    }\n    .liquidFillGaugeText {\n        font-family: Arial;\n        font-weight: bold;\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 650,
+        "y": 1680,
+        "wires": [
+            [
+                "2b5e11590551159a"
+            ]
+        ]
+    },
+    {
+        "id": "71de8d87f72c2d43",
+        "type": "inject",
+        "z": "b17f01bc21a8c6d2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "14",
+        "payloadType": "num",
+        "x": 450,
+        "y": 1680,
+        "wires": [
+            [
+                "7a26aa2098d6683c"
+            ]
+        ]
+    }
+]
